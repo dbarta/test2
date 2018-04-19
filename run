@@ -1,0 +1,13 @@
+#!/bin/bash 
+#!/bin/bash -x for debugging
+#brew install heroku to get the heroku command line
+
+#chmod u+x create_rails_template
+
+git add .
+git commit -m"more changes"
+git push heroku master
+
+
+
+
